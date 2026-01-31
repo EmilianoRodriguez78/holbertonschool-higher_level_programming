@@ -1,5 +1,4 @@
--- Script que lista todos los shows y sus IDs de género
--- Usa LEFT JOIN para incluir shows sin género (NULL)
+-- Write a script that lists all shows contained in the database hbtn_0d_tvshows.
 SELECT tv_shows.title, tv_show_genres.genre_id
 FROM tv_shows
 LEFT JOIN tv_show_genres
